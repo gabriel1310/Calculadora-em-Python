@@ -1,0 +1,20 @@
+n1 = input("Digite um número: ")
+n2 = input("Digite um número: ")
+
+op = input("Escolha uma operação: ")
+
+resultado = None
+
+if op == "1":
+  resultado = float(n1) + float(n2)
+elif op == "2":
+  resultado = float(n1) - float(n2)
+elif op == "3":
+  resultado = float(n1) * float(n2)
+elif op == "4":
+  resultado = float(n1) / float(n2) 
+else:
+  print("FIM")
+
+if resultado:
+  print("{}".format(resultado))
