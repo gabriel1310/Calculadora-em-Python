@@ -1,0 +1,5 @@
+num1 = 25
+num2 = 33
+
+soma = int(num1) + int(num2)
+print("SOMA =  ", soma)
